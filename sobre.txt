@@ -1,0 +1,47 @@
+Gerador de Senhas Seguras com Análise de Entropia
+Descrição
+
+Este projeto consiste em um gerador de senhas seguras com análise de entropia, permitindo que os usuários criem senhas fortes e avaliem a segurança delas. A entropia será calculada para medir a robustez da senha, ajudando na escolha de senhas mais seguras.
+
+Funcionalidades
+
+✅ Gerar senhas seguras aleatórias
+✅ Definir o comprimento da senha
+✅ Escolher os tipos de caracteres (letras, números, símbolos)
+✅ Exibir a entropia da senha gerada
+✅ Interface gráfica amigável usando Tkinter
+✅ Exportar senhas geradas para um arquivo
+✅ Copiar a senha gerada para a área de transferência
+
+Tecnologias utilizadas
+
+    Python 3.10
+    Tkinter (Interface gráfica)
+    random (Geração de senhas)
+    secrets (Para gerar caracteres seguros)
+    math (Cálculo da entropia)
+    pyperclip (Copiar para a área de transferência)
+
+Explicação do Código
+
+🔹 Interface gráfica: Criada com Tkinter, simples e funcional
+🔹 Geração de senhas: Utiliza secrets.choice() para maior segurança
+🔹 Cálculo de entropia: Mede a robustez da senha em bits
+🔹 Copiar para área de transferência: Usa pyperclip para facilitar o uso
+Possíveis Melhorias
+
+    Implementação de força da senha em tempo real
+    Integração com um gerenciador de senhas
+    Opção de salvar senhas criptografadas
+
+Requisitos para rodar o código
+
+Crie um arquivo requirements.txt com os pacotes necessários:
+
+pyperclip
+
+Instale com:
+
+pip install -r requirements.txt
+
+
